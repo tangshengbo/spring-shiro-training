@@ -1,17 +1,17 @@
 package com.wangzhixuan.commons.ueditor;
 
-import javax.servlet.http.HttpServletRequest;
-
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.wangzhixuan.commons.ueditor.define.ActionMap;
 import com.wangzhixuan.commons.ueditor.define.AppInfo;
 import com.wangzhixuan.commons.ueditor.define.BaseState;
 import com.wangzhixuan.commons.ueditor.define.State;
 import com.wangzhixuan.commons.ueditor.hunter.ImageHunter;
 import com.wangzhixuan.commons.ueditor.manager.IUeditorFileManager;
+import com.wangzhixuan.commons.ueditor.upload.Uploader;
 import com.wangzhixuan.commons.utils.JsonUtils;
 import com.wangzhixuan.commons.utils.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.servlet.http.HttpServletRequest;
 
 public class UeditorService {
 	@Autowired 
